@@ -59,13 +59,19 @@ Group by location
 Order by TotalDeathCount desc
 
 
---continuing to break things down by continent
+--the above result is confusing, so looking to the death rate by continent
 
 Select continent, Sum(new_cases) as TotalCasesCount, Sum(new_deaths) as TotalDeathCount, (Sum(new_deaths)/Sum(new_cases))*100 as DeathPercentage
 From PortfolioProject2..CovidDeaths
 Where continent is not null
 Group by continent
 Order by TotalDeathCount desc
+
+--global death Vs vaccinations
+
+Select Sum(new_cases) as TotalCasesCount, Sum(new_deaths) as TotalDeathCount, (Sum(new_deaths)/Sum(new_cases))*100 as DeathPercentage
+From PortfolioProject2..CovidDeaths
+Where continent is not null
 
 --total population Vs vaccinations
 
@@ -117,6 +123,7 @@ Join PortfolioProject2..CovidVaccinations as vac
 
 Select *, (RollingPeopleVaccinated/population)*100 as PercentagePopulationVaccinated
 From #PercentPopulationVaccinated
+Order by 2,3
 
 --use view
 
