@@ -1,0 +1,69 @@
+tr
+	{mso-height-source:auto;}
+col
+	{mso-width-source:auto;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding:0px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl65
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0";}
+.xl66
+	{mso-style-parent:style0;
+	color:black;
+	vertical-align:middle;}
+.xl67
+	{mso-style-parent:style0;
+	color:black;
+	mso-number-format:"dd\\-mmm\\-yyyy";
+	vertical-align:middle;}
+.xl68
+	{mso-style-parent:style0;
+	mso-number-format:"0\.0\0022kg\0022";}
+.xl69
+	{mso-style-parent:style0;
+	mso-number-format:"_-\[$$-409\]* \#\,\#\#0\.00_ \;_-\[$$-409\]* \\-\#\,\#\#0\.00\\ \;_-\[$$-409\]* \0022-\0022??_ \;_-\@_ ";}
+.xl70
+	{mso-style-parent:style0;
+	mso-number-format:0;}
+.xl71
+	{mso-style-parent:style0;
+	mso-number-format:"_-\[$$-409\]* \#\,\#\#0_ \;_-\[$$-409\]* \\-\#\,\#\#0\\ \;_-\[$$-409\]* \0022-\0022??_ \;_-\@_ ";}
